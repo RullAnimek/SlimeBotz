@@ -91,6 +91,8 @@ m = smsg(kayla, kay, store)
 require('./kayla')(kayla, m, chatUpdate, store)
 } catch (err) {
 console.log(err)}})
+require("http").createServer((_, res) =>
+ res.end("Uptime!")).listen(8080)
 
 kayla.ev.on('group-participants.update', async (anu) => {
 console.log(anu)
