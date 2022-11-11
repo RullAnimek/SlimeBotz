@@ -1,6 +1,3 @@
-/* Created By Kayla Bot WhatsApp */
-/* WhatsApp Creator Di Bawah */
-/* wa.me/6287705048235 */
 
 const { modul } = require('./module');
 const { baileys, boom, chalk, fs, figlet, FileType, path, pino, process, PhoneNumber } = modul;
@@ -28,7 +25,7 @@ const { version, isLatest } = await fetchLatestBaileysVersion()
 const kayla = kaylaConnect({
 logger: pino({ level: 'silent' }),
 printQRInTerminal: true,
-browser: ['Kayla Bot WhatsApp (2022)','Safari','1.0.0'],
+browser: ['Slime Bot','Safari','1.0.0'],
 auth: state,
 version
 })
